@@ -1,1 +1,90 @@
-hello
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Strap this</title>
+
+    <link rel="stylesheet/less" 
+          href="static/bootstrap/less/bootstrap.less">
+    <link rel="stylesheet/less" 
+          href="static/bootstrap/less/responsive.less">
+    <link rel="stylesheet/less" href="static/css/site.less">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2 sidebar">
+          <h3>Examples</h3>
+          <ul>
+            <li><a href="#example1">Example 1</a></li>
+            <li><a href="#example2">Example 2</a></li>
+          </ul>
+        </div>
+
+        <div class="span10 content">
+          <h1>Welcome to Mortar</h1>
+
+          <p>Here are a few things that might be good for mobile apps:</p>
+
+          <div class="example">
+            <h3>Alerts</h3>
+            <div class="alert">
+              <button class="close" data-dismiss="alert">x</button>
+              <strong>Careful,</strong> don't eat those too fast.
+            </div>
+          </div>
+
+          <div class="example">
+            <h3>Buttons</h3>
+            <a class="btn" href="#"><i class="icon-arrow-left"></i> Back</a>
+            <a class="btn" href="#"><i class="icon-repeat"></i> Repeat</a>
+          </div>
+
+          <div class="example">
+            <h3>Toolbar</h3>
+            <div class="pagination">
+              <ul>
+                <li class="active">
+                  <a href="#"><i class="icon-home"></i></a>
+                </li>
+                <li><a href="#"><i class="icon-fire"></i></a></li>
+                <li><a href="#"><i class="icon-list"></i></a></li>
+                <li><a href="#"><i class="icon-wrench"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <p>
+            We could also provide these tools to customize the style (something
+            of which other platforms, especially iOS, is very restrictive):
+
+            <ul>
+              <li><a href="http://bootswatch.com/">Bootswatch<a></li>
+              <li><a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a></li>
+              <li><a href="http://charliepark.org/bootstrap_buttons/">Bootstrap Buttons</a></li>
+            </ul>
+          </p>
+
+          <p>
+            This is the UI portion, so this doesn't solve any of the
+            javascript requirements yet, but I suspect that will just
+            be including require.js or volo.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="static/js/less-1.3.0.min.js"></script>    
+    <script src="static/js/jquery-1.7.2.min.js"></script>
+  </body>
+</html>
