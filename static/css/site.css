@@ -3454,14 +3454,14 @@ input[type="submit"].btn.btn-mini {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #aa1b22;
-  background-image: -moz-linear-gradient(top, #aa0022, #aa4422);
-  background-image: -ms-linear-gradient(top, #aa0022, #aa4422);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aa0022), to(#aa4422));
-  background-image: -webkit-linear-gradient(top, #aa0022, #aa4422);
-  background-image: -o-linear-gradient(top, #aa0022, #aa4422);
-  background-image: linear-gradient(top, #aa0022, #aa4422);
+  background-image: -moz-linear-gradient(top, #aa0022, #000000);
+  background-image: -ms-linear-gradient(top, #aa0022, #000000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aa0022), to(#000000));
+  background-image: -webkit-linear-gradient(top, #aa0022, #000000);
+  background-image: -o-linear-gradient(top, #aa0022, #000000);
+  background-image: linear-gradient(top, #aa0022, #000000);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa0022', endColorstr='#aa4422', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa0022', endColorstr='#000000', GradientType=0);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -3662,14 +3662,14 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav .active > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #aa4422;
+  background-color: #000000;
 }
 .navbar .divider-vertical {
   height: 40px;
   width: 1px;
   margin: 0 9px;
   overflow: hidden;
-  background-color: #aa4422;
+  background-color: #000000;
   border-right: 1px solid #aa0022;
 }
 .navbar .nav.pull-right {
@@ -3683,17 +3683,17 @@ input[type="submit"].btn.btn-mini {
   margin-left: 5px;
   margin-right: 5px;
   background-color: #aa1b22;
-  background-image: -moz-linear-gradient(top, #aa0022, #aa4422);
-  background-image: -ms-linear-gradient(top, #aa0022, #aa4422);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aa0022), to(#aa4422));
-  background-image: -webkit-linear-gradient(top, #aa0022, #aa4422);
-  background-image: -o-linear-gradient(top, #aa0022, #aa4422);
-  background-image: linear-gradient(top, #aa0022, #aa4422);
+  background-image: -moz-linear-gradient(top, #aa0022, #000000);
+  background-image: -ms-linear-gradient(top, #aa0022, #000000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aa0022), to(#000000));
+  background-image: -webkit-linear-gradient(top, #aa0022, #000000);
+  background-image: -o-linear-gradient(top, #aa0022, #000000);
+  background-image: linear-gradient(top, #aa0022, #000000);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa0022', endColorstr='#aa4422', GradientType=0);
-  border-color: #aa4422 #aa4422 #6a2a15;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa0022', endColorstr='#000000', GradientType=0);
+  border-color: #000000 #000000 #6a2a15;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #aa4422;
+  *background-color: #000000;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -3706,7 +3706,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn-navbar.active,
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
-  background-color: #aa4422;
+  background-color: #000000;
   *background-color: #953b1e;
 }
 .navbar .btn-navbar:active,
@@ -3718,7 +3718,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn-navbar.active,
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
-  background-color: #aa4422;
+  background-color: #000000;
   *background-color: #953b1e;
 }
 .navbar .btn-navbar:active,
@@ -5869,7 +5869,7 @@ a.badge:hover {
   }
   .nav-collapse .nav > li > a:hover,
   .nav-collapse .dropdown-menu a:hover {
-    background-color: #aa4422;
+    background-color: #000000;
   }
   .nav-collapse.in .btn-group {
     margin-top: 5px;
@@ -5905,8 +5905,8 @@ a.badge:hover {
     float: none;
     padding: 9px 15px;
     margin: 9px 0;
-    border-top: 1px solid #aa4422;
-    border-bottom: 1px solid #aa4422;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
     -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
     box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
