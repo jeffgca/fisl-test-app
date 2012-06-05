@@ -21,10 +21,101 @@
     <script src="js/lib/modernizr-2.5.3.min.js"></script>
   </head>
   <body>
+    <a href="https://github.com/jlongster/mortar"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
-    <!-- Add your site or application content here -->
+    <div class="content">
+      <h1>Open Web App Bootstrap</h1>
+      <a href="https://github.com/jlongster/mortar/zipball/master" class="download">
+        <img src="img/cake.png" />
+        <div>Download</div>
+      </a>
 
-    Yup, this is the site.
+      <section class="intro">
+        The Open Web App Bootstrap is a fork
+        of <a href="http://html5boilerplate.com/">html5boilerplate</a>
+        that is heavily customized
+        for <a href="https://www.mozilla.org/en-US/apps/partners/">Open
+          Web Apps</a>.
+      </section>
+
+      <section>
+        <h4>What you get:</h4>
+        <ul>
+          <li>Many of the helpful tricks from html5boilerplate for
+            creating HTML5 apps</li>
+          <li>Prebuilt manifest.webapp</li>
+          <li>js libraries for interacting with Mozilla's marketplace</li>
+          <li><a href="http://requirejs.org/">require.js</a> for
+            structuring your js code (optional)</li>
+          <li><a href="https://github.com/volojs/volo">volo</a> for
+            scripting app deployment and other things (optional)</li>
+        </ul>
+
+        In fact, anything in here is optional, so feel free to hack it
+        up however you like. It's just a good starting point.
+      </section>
+
+      <section>
+        <h4>Volo</h4>
+
+        <p>
+          If you
+          have <a href="https://github.com/volojs/volo">volo</a>
+          already installed, you can create new projects with this command:
+        </p>
+
+        <pre><code>$ volo create &lt;project-name&gt; jlongster/mortar</code></pre>
+
+        <p>
+          <a href="https://github.com/volojs/volo">volo</a> is a simple
+          script in the <code>tools</code> directory to manage
+          javascript projects. We use it install libraries, deploy to
+          github or the marketplace, and for any other general
+          maintenance.
+        </p>
+
+        <p>
+          The commands below assume that you are in the root of your project.
+        </p>
+      </section>
+
+      <section>
+        <h4>UI Libraries</h4>
+
+        Every app has a UI, and you can install
+        either <a href="http://twitter.github.com/bootstrap/">Twitter
+        Bootstrap</a> or Mozilla's
+        own <a href="https://github.com/csuwldcat/x-tag">x-tags</a>
+        with one simple command. To install Twitter Bootstrap:
+
+        <pre><code>$ ./tools/volo install_twbootstrap</code></pre>
+
+        Or if you'd rather use x-tags:
+
+        <pre><code>$ ./tools/volo install_xtags</code></pre>
+      </section>
+
+      <section>
+        <h4>Deployment</h4>
+
+        You can use volo to deploy your app to github. Simply build
+        the app like so:
+
+        <pre><code>$ ./tools/volo build</code></pre>
+
+        And then run the <code>ghdeploy</code> command:
+
+        <pre><code>$ ./tools/volo ghdeploy</code></pre>
+
+        Your app will be available at the
+        <code>"&lt;name&gt;.github.com/&lt;project&gt;"</code> URL.
+
+        <p>
+          We will add commands in the future to deploy straight to the
+          Mozilla marketplace.
+        </p>
+      </section>
+    </div>
 
 
     <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->
@@ -49,7 +140,7 @@
 
     <!-- Include the in-app payments API
          https://developer.mozilla.org/en/Apps/In-app_payments -->
-    <!-- 
+    <!--
     <script src="//marketplace-cdn.addons.mozilla.net/mozmarket.js"></script>
     -->
 

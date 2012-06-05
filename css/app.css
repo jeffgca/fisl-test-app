@@ -4,7 +4,7 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: Georgia, serif; color: #222; }
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 a { color: #00e; }
 a:visited { color: #551a8b; }
@@ -48,6 +48,50 @@ input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
+body {
+    background: url(../img/lyonnette.png);
+    color: #000000;
+}
+.content {
+    padding: 20px;
+    padding-top: 1px;
+    background-color: white;
+    width: 750px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+h1 {
+    text-align: center;
+}
+section {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1.5em;
+}
+.intro {
+    font-weight: bold;
+    text-align: center;
+}
+a, a:visited, a:active {
+    color: #4C4256;
+}
+a.download {
+    background-color: #DDD7D7;
+    padding: .75em;
+    border-radius: 10px;
+    display: block;
+    width: 128px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.download div {
+    text-align: center;
+    margin-top: 5px;
+}
+pre {
+    margin: 1em
+}
 @media only screen and (min-width: 35em) {
   
 }
