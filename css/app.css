@@ -1,7 +1,4 @@
-
-body {
-    color: poop;
-}
+@import url("poop.css");
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
@@ -59,7 +56,7 @@ body {
     padding: 20px;
     padding-top: 1px;
     background-color: white;
-    width: 750px;
+    width: 800px;
     margin: 0 auto;
     border-radius: 0 0 10px 10px;
 }
@@ -70,27 +67,46 @@ section {
     width: 75%;
     margin: 0 auto;
     margin-top: 1.5em;
+    clear: both;
 }
 .intro {
     font-weight: bold;
     text-align: center;
+    margin-top: 1em;
+}
+.downloads {
+    overflow: hidden;
 }
 a, a:visited, a:active {
     color: #4C4256;
 }
 a.download {
-    background-color: #DDD7D7;
+    display: block;
     padding: .75em;
     border-radius: 10px;
-    display: block;
     width: 128px;
     margin: 0 auto;
     text-decoration: none;
     font-size: 1.1em;
 }
+.download-block {
+    
+    float: left;
+    margin: 0 .5em;
+}
+.download-block a:hover {
+    background-color: #DDD7D7;
+}
+.download-block.volo pre {
+    margin-top: 4.0em;
+}
 .download div {
     text-align: center;
     margin-top: 5px;
+}
+.volo-install {
+    background-color: grey;
+    border-radius: 8px;
 }
 pre {
     margin: 1em
