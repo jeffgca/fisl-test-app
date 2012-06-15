@@ -63,11 +63,29 @@ $ volo create &lt;name&gt; mozilla/mortar</code></pre>
       </section>
 
       <section>
+        <h4>What is an Open Web App?</h4>
+
+        <p>
+          An <a href="https://developer.mozilla.org/en/Apps/">Open Web
+          App</a> is an app built with web technologies that can be
+          installed on any modern standards-compliant device. It's
+          really as simple as a website with metadata. This metdata
+          allows the user to discover, install, launch, and grant it
+          additional privileges.
+        </p>
+      </section>
+
+      <section>
         <h4>What you get:</h4>
         <ul>
           <li>Many of the helpful tricks from html5boilerplate for
             creating HTML5 apps</li>
           <li>Prebuilt manifest.webapp</li>
+          <li>
+            Two UI
+            libraries: <a href="http://twitter.github.com/bootstrap/">Twitter
+            Bootstrap</a> and <a href="https://github.com/csuwldcat/x-tag">x-tags</a>
+          </li>
           <li>js libraries for interacting with Mozilla's marketplace</li>
           <li><a href="http://requirejs.org/">require.js</a> for
             structuring your js code (optional)</li>
@@ -83,40 +101,30 @@ $ volo create &lt;name&gt; mozilla/mortar</code></pre>
         <h4>Volo</h4>
 
         <p>
-          If you
-          have <a href="https://github.com/volojs/volo">volo</a>
-          already installed, you can create new projects with this command:
-        </p>
-
-        <pre><code>$ volo create &lt;project-name&gt; jlongster/mortar</code></pre>
-
-        <p>
-          <a href="https://github.com/volojs/volo">volo</a> is a simple
-          script in the <code>tools</code> directory to manage
-          javascript projects. We use it install libraries, deploy to
-          github or the marketplace, and for any other general
-          maintenance.
+          There are two ways to download this, as indicated at the top.
+          You can download the zipball, or use the <code>volo</code>
+          command directly.
         </p>
 
         <p>
-          The commands below assume that you are in the root of your project.
+          <a href="https://github.com/volojs/volo">volo</a> is a helpful
+          tool which provides several commands to perform various
+          activities for your apps, such as minimizing assets, deploying
+          into the app store, and testing.
         </p>
-      </section>
 
-      <section>
-        <h4>UI Libraries</h4>
+        <p>
+          It is recommend that you install and use it directly (see
+          the <code>npm</code> code at the top). If you do not want to
+          install volo, it comes bundled inside the <code>tools</code>
+          directory, but you need to make it executable. For the sake of
+          these instructions, you can also alias it so we can
+          invoke <code>volo</code> directly:
+        </p>
 
-        Every app has a UI, and you can install
-        either <a href="http://twitter.github.com/bootstrap/">Twitter
-        Bootstrap</a> or Mozilla's
-        own <a href="https://github.com/csuwldcat/x-tag">x-tags</a>
-        with one simple command. To install Twitter Bootstrap:
+        <pre><code>$ chmod +x ./tools/volo
+$ alias volo=./tools/volo</code></pre>
 
-        <pre><code>$ ./tools/volo install_twbootstrap</code></pre>
-
-        Or if you'd rather use x-tags:
-
-        <pre><code>$ ./tools/volo install_xtags</code></pre>
       </section>
 
       <section>
@@ -137,6 +145,12 @@ $ volo create &lt;name&gt; mozilla/mortar</code></pre>
         <p>
           We will add commands in the future to deploy straight to the
           Mozilla marketplace.
+        </p>
+
+        <p>
+          Until then, you can head over
+          to <a href="https://marketplace.mozilla.org/">the
+          marketplace</a> and submit your app!
         </p>
       </section>
     </div>
