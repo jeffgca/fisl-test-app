@@ -1,10 +1,6 @@
 
 // The code below uses require.js, a module system for javscript:
 // http://requirejs.org/docs/api.html#define
-//
-// You don't have to use require.js, and you can delete all of this if
-// you aren't (make sure to uncomment the script tags in index.html also)
-
 
 // Set the path to jQuery, which will fall back to the local version
 // if google is down
@@ -15,6 +11,21 @@ require.config({
 });
 
 var global = this;
+
+// When you write javascript in separate files, list them as
+// dependencies along with jquery
+require(['jquery'], function($) {
+
+    // START HERE: Put your js code here
+
+
+
+
+    // If using Twitter Bootstrap, you need to require all the
+    // components that you use, like so:
+    // require('bootstrap/dropdown');
+    // require('bootstrap/alert');
+});
 
 // Include the in-app payments API, and if it fails to load handle it
 // gracefully.
@@ -27,20 +38,3 @@ require(['https://marketplace-cdn.addons.mozilla.net/mozmarket.js'],
                 alert('The in-app purchasing is currently unavailable.');
             };
         });
-
-
-require(['jquery'], function($) {
-    // If using Twitter Bootstrap, you need to require all the
-    // components that you use, like so:
-    // require('bootstrap/dropdown');
-    // require('bootstrap/alert');
-
-    // Put your js code here
-
-
-
-
-});
-
-// END REQUIRE.JS CODE
-// Remove all of this if not using require.js
